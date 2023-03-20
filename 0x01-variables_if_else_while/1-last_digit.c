@@ -22,15 +22,15 @@ int main(void)
 	printf("Last digit of %d is %d and is ", n, m);
 	if (m == 0)
 	{
-		printf("%s\n", "0");
+		printf("%s", "0");
 	}
 	else if (m > 5)
 	{
-		printf("%s\n", "greater than 5");
+		printf("%s", "greater than 5");
 	}
 	else if (m < 6)
 	{
-		printf("%s\n", "less than 6 and not 0");
+		printf("%s", "less than 6 and not 0");
 	}
 	putchar('\n');
 	return (0);
