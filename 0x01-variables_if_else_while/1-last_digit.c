@@ -26,12 +26,12 @@ int main(void)
 	}
 	else if (m > 5)
 	{
-		printf("%s", "greater than 5");
+		printf("%s", "greater than 5\n");
 	}
 	else if (m < 6)
 	{
-		printf("%s", "less than 6 and not 0");
+		printf("%s", "less than 6 and not 0\n");
 	}
-	putchar('\n');
+	//putchar('\n');
 	return (0);
 }
