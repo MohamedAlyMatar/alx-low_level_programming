@@ -32,6 +32,6 @@ int main(void)
 	{
 		printf("%s", "less than 6 and not 0\n");
 	}
-	//putchar('\n');
+	
 	return (0);
 }
