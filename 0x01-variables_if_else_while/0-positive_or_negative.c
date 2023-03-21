@@ -7,8 +7,6 @@
  * prints it and says wheather it is positive , negative or zero
  * Return: Always 0 (Success)
  */
-
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
@@ -27,6 +25,5 @@ int main(void)
 	{
 		printf("%d %s\n", n, "is positive");
 	}
-	
 	return (0);
 }
